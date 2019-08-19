@@ -77,7 +77,7 @@ require_once("connect.php");
 				return confirm('Submit this form ?');
 		}
 		function check_passwd(pw1,pw2){
-		if(pw1==''){
+		if(pw1 == ''){
 			alert("Password Can't be Empty");
 			return false;
 		}
